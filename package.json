@@ -1,0 +1,14 @@
+{
+  "name": "codelens",
+  "version": "1.0.0",
+  "description": "Transparent AI coding — watch code get written",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "postinstall": "node install.js",
+    "uninstall": "node uninstall.js"
+  },
+  "dependencies": {
+    "express": "^4.18.0"
+  }
+}

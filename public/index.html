@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>CodeLens</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/monaco-editor/0.44.0/min/vs/loader.min.js"></script>
+</head>
+<body>
+  <div id="app">
+
+    <header id="header">
+      <div id="header-logo">
+        <span class="logo-icon">◈</span>
+        <span class="logo-text">CodeLens</span>
+      </div>
+      <div id="tabs-scroll">
+        <div id="tabs-bar">
+          <!-- session tabs injected here -->
+        </div>
+      </div>
+      <div id="header-right">
+        <select id="voice-select" title="Narration voice"></select>
+        <button id="audio-btn" title="Enable audio narration">🔇</button>
+        <div id="status-dot"></div>
+        <span id="status-text">Connecting...</span>
+      </div>
+    </header>
+
+    <main id="main">
+      <div id="editor-container"></div>
+
+      <aside id="sidebar">
+        <div id="tree-section">
+          <div class="sidebar-title" id="tree-title">PROJECT</div>
+          <div id="file-tree"></div>
+        </div>
+        <div id="feed-section">
+          <div class="sidebar-title">RECENT</div>
+          <div id="feed"></div>
+        </div>
+      </aside>
+    </main>
+
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
