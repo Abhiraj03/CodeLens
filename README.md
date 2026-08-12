@@ -10,10 +10,10 @@ It's not a quiz. It's not a gate. It's just awareness — like having a senior d
 
 ## What it looks like
 
-- **Write** — new file animates line by line into a Monaco editor. Comments glow amber and type at reading pace, voice speaks them simultaneously. Code lines follow fast.
-- **Edit** — existing file loads, scrolls to the change, highlights old lines red, removes them, animates new lines in with the same typewriter logic.
-- **File summary** — 4 seconds after the last edit to a file, a short spoken summary plays: what changed and why.
-- **File tree + tabs** — sidebar shows your project structure. Files glow when touched. One tab per file, VS Code style.
+- **Write:** new file animates line by line into a Monaco editor. Comments glow amber and type at reading pace, voice reads them aloud at the same time. Code lines follow fast.
+- **Edit:** existing file loads, scrolls to the change, highlights the old lines red, removes them, and animates the new lines in with the same typewriter logic.
+- **File summary:** 4 seconds after the last edit, a short spoken summary plays covering what changed and why.
+- **File tree + tabs:** sidebar tracks your project structure. Files glow when touched. One tab per file, VS Code style.
 
 ---
 
@@ -68,4 +68,4 @@ Removes the hook from `~/.claude/settings.json`. Delete the folder and you're do
 
 ## Why
 
-Vibe coding is a productivity gain that comes with a hidden cost — you slowly lose the ability to read, reason about, and own your code. CodeLens is an attempt to get the speed without the cost.
+Vibe coding is a productivity gain with a hidden cost. You slowly lose the ability to read, reason about, and own your code. CodeLens is an attempt to get the speed without that cost.
