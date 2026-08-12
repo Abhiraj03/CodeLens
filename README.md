@@ -36,7 +36,9 @@ npm start
 `npm install` automatically registers the hook in `~/.claude/settings.json`.  
 `npm start` runs the server at `http://localhost:4006`.
 
-Open `localhost:4006` in your browser before starting a Claude Code session. Click the 🔇 button in the header to enable audio narration.
+**If Claude Code is already open, restart it after `npm install`** so it picks up the new hook.
+
+Open `localhost:4006` in your browser, click the 🔇 button in the header to enable audio narration, then start a Claude Code session and write or edit any file.
 
 Then just code normally — CodeLens visualizes everything in real time.
 
